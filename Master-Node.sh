@@ -86,7 +86,7 @@ Then you can join any number of worker nodes by running the following on each as
 
 ***
 kubeadm join MASTER_IP:6443 --token joucxv.1yf5uhcrfkp0w3co \
---discovery-token-ca-cert-hash sha256:710b9bfa224be042e33dfec82055da99b02a86ae48541f829934ad0fab52cfb6
+--discovery-token-ca-cert-hash sha256:$key
 ``
 
 # Allow kubernetes port

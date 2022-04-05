@@ -62,4 +62,4 @@ sudo systemctl enable docker
 
 # Join worker node to master 
 sudo kubeadm join MASTER_IP:6443 --token joucxv.1yf5uhcrfkp0w3co \
---discovery-token-ca-cert-hash sha256:710b9bfa224be042e33dfec82055da99b02a86ae48541f829934ad0fab52cfb6
+--discovery-token-ca-cert-hash sha256:$key
